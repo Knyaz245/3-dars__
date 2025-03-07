@@ -11,8 +11,7 @@ ul{
     list-style: none;
 }
 .politick-header{
-    max-width: 1440px;
-    width: 100%;
+    width:1440px;
     height: 414px;
     padding: 23px 145px;
     
@@ -24,7 +23,7 @@ ul{
     display: flex;
 }
 .politick-headline{
-    margin-right: 300px;
+    margin-right: 200px;
 
 }
 .politick-headline__links{
@@ -51,9 +50,7 @@ ul{
     margin-right: 15px;
     margin-bottom: 45px;
 }
-.politick-header__container1{
-    margin-left: 215px;
-}
+
 .politick-headline__title{
     color: #000;
     font-family: Roboto;
@@ -62,4 +59,146 @@ ul{
     font-weight: 700;
     line-height: normal;
     margin-left: 10px;
+}
+.politick-main__box{
+    height: 378px;
+    width: 350px;
+    background-color: #B71C1C;
+}
+.politick-main__container-title{
+    height: 203px;
+    width: 350px;
+    padding: 15px;
+}
+.politick-main__box1{
+    height: 378px;
+    width: 350px;
+    background-color: #6A1B9A;
+}
+.politick-main__box2{
+    height: 378px;
+    width: 350px;
+    background-color: #303f9f;
+}
+.politick-main__box3{
+    height: 378px;
+    width: 350px;
+    background-color: #00695C;
+}
+.politick-main{
+    width: 1440px;
+    height: 414px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.politick-main__title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.politick-main__text{
+    color: #EBEBEB;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.politick-main__container {
+    width: 1440px;
+    height: 414px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.politick,
+.politick-main,
+.politick-information__container,
+.politick-information,
+.footer,
+.politick-main__container {
+    max-width: 100%; /* Чтобы сайт не выходил за границы экрана */
+    overflow-x: hidden; /* Убираем горизонтальный скролл */
+}
+.politick-information__container{
+    display: flex;
+    background-color: #EDEDED;
+    padding-left: 130px;
+}
+.politick-information__container{
+    height: 531px;
+    padding-right: 145px;
+}
+.politick-information__info{
+    margin-left: 30px;
+}
+.politick-information__headline{
+    color: #3A3838;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.politick-information__text{
+    color: #686868;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.politick-information__title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.politick-information{
+    margin-bottom: 50px;
+}
+.footer-container{
+    display: flex;
+    background-color: #3A3838;
+    padding: 28px 145px;
+}
+.footer{
+    height: 148px;
+}
+.footer-container__list{
+    display: flex;
+}
+.footer-container__link{
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 15px;
+}
+.footer-container__title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
+.footer-container__img{
+    margin-right: 230px;
+}
+.footer-container__header{
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    color: #EF4423;
+    transition: 0.3s;
 }
