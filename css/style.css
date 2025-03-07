@@ -1,0 +1,65 @@
+@import url(./fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.politick-header{
+    max-width: 1440px;
+    width: 100%;
+    height: 414px;
+    padding: 23px 145px;
+    
+}
+.politick-header__container{
+    display: flex;
+}
+.politick-headline__list{
+    display: flex;
+}
+.politick-headline{
+    margin-right: 300px;
+
+}
+.politick-headline__links{
+    margin-top: 23px;
+}
+.politick-headline__linke{
+    color: #3A3838;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 15px;
+}
+.politick-headline__link {
+    color: #3A3838;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 15px;
+    margin-bottom: 45px;
+}
+.politick-header__container1{
+    margin-left: 215px;
+}
+.politick-headline__title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10px;
+}
