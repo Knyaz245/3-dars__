@@ -23,7 +23,7 @@ ul{
     display: flex;
 }
 .politick-headline{
-    margin-right: 200px;
+    margin-right: 180px;
 
 }
 .politick-headline__links{
@@ -116,6 +116,7 @@ ul{
 }
 .politick,
 .politick-main,
+.politick-header,
 .politick-information__container,
 .politick-information,
 .footer,
